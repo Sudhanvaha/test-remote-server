@@ -191,6 +191,7 @@ async def delete(
                     "message": "Both start_date and end_date must be provided for date range"
                 }
             
+            
             # Handle individual column filters
             if id is not None:
                 conditions.append("id = ?")
