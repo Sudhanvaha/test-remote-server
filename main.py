@@ -26,6 +26,7 @@ def init_db():
                     date TEXT NOT NULL,
                     amount REAL NOT NULL,
                     category TEXT NOT NULL,
+                    
                     subcategory TEXT DEFAULT '',
                     note TEXT DEFAULT ''
                 )
