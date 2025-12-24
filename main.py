@@ -12,6 +12,7 @@ CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
 
 print(f"Database path: {DB_PATH}")
 
+
 mcp = FastMCP("ExpenseTracker")
 
 def init_db():
