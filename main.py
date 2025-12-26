@@ -37,6 +37,7 @@ def init_db():
             c.execute("DELETE FROM expenses WHERE category = 'test'")
             print("Database initialized successfully with write access")
     except Exception as e:
+        
         print(f"Database initialization error: {e}")
         raise
 
